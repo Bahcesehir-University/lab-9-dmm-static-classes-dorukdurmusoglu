@@ -160,7 +160,7 @@ IntArray::~IntArray() {
     for (int i = 0; i < count; i++){
         data[i] = other.data[i];        // copy each element
 }
-
+  Tracker::objectCreated();
 }
 
 // Copy Assignment Operator
